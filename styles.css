@@ -1,0 +1,23 @@
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.profile-pic {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+.nav-link {
+	color: white;
+}
+.nav-link:hover {
+	color: #ffc107;
+}
+.nav-tabs .nav-link.active {
+	color: #ffc107;
+	background-color: transparent;
+	border-color: transparent;
+}
